@@ -15,13 +15,13 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="A preliminary understanding of URLLC  A preliminary understanding of URLLC is summarized in the form of questions as follows. a.   Definition: what is URLLC?  URLLC (ultra-reliable low-latency communi">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://zhaoxinran1999.github.io/RifleBlog.github.io/RifleBlog.github.io/2020/09/11/An-overview-of-URLLC-ver0-1/related_work.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/Zhaoxinran1999/RifleBlog.github.io/master/2020/09/11/An-overview-of-URLLC-ver0-1/related_work.png">
 <meta property="article:published_time" content="2020-09-11T13:33:38.000Z">
-<meta property="article:modified_time" content="2020-09-11T13:46:04.749Z">
+<meta property="article:modified_time" content="2020-09-11T13:52:49.265Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="URLLC, wireless communication, overview">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://zhaoxinran1999.github.io/RifleBlog.github.io/RifleBlog.github.io/2020/09/11/An-overview-of-URLLC-ver0-1/related_work.png">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/Zhaoxinran1999/RifleBlog.github.io/master/2020/09/11/An-overview-of-URLLC-ver0-1/related_work.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -167,7 +167,7 @@
 <p>·     Dynamic division of packet delay budget,</p>
 <p>·     Enhancements of session continuity.</p>
 <h2 id="e-Related-work-what-related-work-has-been-done-to-improve-the-performance-of-URLLC"><a href="#e-Related-work-what-related-work-has-been-done-to-improve-the-performance-of-URLLC" class="headerlink" title="e. Related work: what related work has been done to improve the performance of URLLC?"></a><strong>e.</strong> <strong>Related work: what related work has been done to improve the performance of URLLC?</strong></h2><p>There is a rich literature on the topics of URLLC, from physical layer to transport layer, from theoretical analysis to system level simulations, and from simple URLLC scenarios to mixed scenarios.</p>
-<p><img src="/RifleBlog.github.io/RifleBlog.github.io/2020/09/11/An-overview-of-URLLC-ver0-1/related_work.png" alt="related_work"></p>
+<p><img src="https://raw.githubusercontent.com/Zhaoxinran1999/RifleBlog.github.io/master/2020/09/11/An-overview-of-URLLC-ver0-1/related_work.png" alt="related_work"></p>
 <h3 id="Physical-layer"><a href="#Physical-layer" class="headerlink" title="Physical layer"></a><strong>Physical layer</strong></h3><p>  In order to satisfy URLLC requirements, new techniques in physical layer design are demanded. The problems in URLLC in physical layer design and a set of techniques specified in Release 16 are summarized in [3]. Improvements of detection techniques for short packet transmission are proposed in [4] and [5]. In [4], a multiuser MIMO wireless communication system is analytically studied. An approach where the channel estimation error is treated as a signal rather than noise, while the zero-forcing detection is applied at the receiver. [5] focuses on the critical industrial control scenario and proposes to use a short one-symbol PHY preamble for critical wireless industrial communications in order to reduce the transmission latency. To be mentioned, [5] is based on WLAN described in the IEEE 802.11 standard and it is still a question whether WLAN is an alternative to 5G NR for URLLC (more detailed description about this question is in Q5 of part Ⅱ).</p>
 <p>  To implement ultra-reliability and low-latency, coding and decoding scheme, which has a huge impact on processing efficiency and error rate, is a basic issue. [6] indicates that, in current turbo decoder, a large number of processors remain idle when decoding short frame lengths. This paper proposes a novel turbo decoding algorithm that supports a high degree of parallel processing and lower processing latency. Further work is done in [7] where OFDM demodulation and a fully-parallel turbo decoding are executed concurrently, rather than consecutively, which reduces the processing time.</p>
 <h3 id="Link-layer"><a href="#Link-layer" class="headerlink" title="Link layer"></a><strong>Link layer</strong></h3><p>  Access networking represents a critical segment for development of URLLC services in cellular networks. [8] outlines two potential approaches to access protocol redesign, respectively grant-free access and coordinated grant-free access. It indicates that grant-based slotted ALOHA is not suitable for URLLC services and redundancy and diversity should be the principal approach to achieve reliability with low latency. [9] discusses in details the MAC protocols compared to [8]. It mainly focuses on use of large number of antennas in massive MIMO for providing high reliability and the concept of interface diversity and multi-connectivity.</p>
