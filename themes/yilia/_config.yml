@@ -2,6 +2,9 @@
 
 menu:
   Rifle's Home: /
+  Research: /tags/research
+  Dairy: /tags/dairy
+  Books: /tags/books
 
 # SubNav
 subnav:

@@ -5,6 +5,7 @@ tags:
 - URLLC
 - wireless communication
 - overview
+- research
 ---
 
 # **A preliminary understanding of URLLC**
