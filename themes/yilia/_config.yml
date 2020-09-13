@@ -70,7 +70,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar: 'https://raw.githubusercontent.com/Zhaoxinran1999/RifleBlog.github.io/master/css/images/banner.jpg'
+avatar: 'https://res.cloudinary.com/devd9kns5/image/upload/v1600004293/blog/8D66F10152368E4F9C40470713B66405_vz8yov.jpg'
 
 #是否开启分享
 share_jia: true
