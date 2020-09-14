@@ -1,5 +1,5 @@
 ---
-title: URLLC IN Standards
+title: URLLC in Standards
 date: 2020-09-12 15:22:36
 tags:
 - URLLC
